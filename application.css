@@ -1,0 +1,191 @@
+
+.selected {
+  opacity:1
+}
+
+html {
+  height:100%;
+  font-family:sans-serif;
+  opacity:0.8;
+  padding:0;
+  margin:0;
+}
+body {
+  margin:2vh 2vw
+}
+menu {
+  -webkit-padding-start:0;
+}
+main > section {
+  padding:2vh 0;
+  min-height:100vh
+}
+
+main > article {
+  padding:0;
+  min-height:100vh;
+}
+
+dl {
+  display:none;
+}
+
+h1,h2,h3,p {
+  text-transform: capitalize;
+}
+h1, h2, h3 {
+  vertical-align: middle;
+  margin:0 0 2vw 0
+}
+
+h1 > a {
+  color:black;
+}
+
+menu {
+  margin:1vh 1vw 1vh 0
+}
+menu > a {
+  margin-right:2vw;
+  opacity:0.5;
+}
+
+header > menu > a {
+  margin:0 2vw 2vh 0;
+}
+
+
+main > menu {
+  margin-left:2vw;
+  height:100vh;
+}
+main > menu > a {
+  margin:1vh 2vw 1vh 0;
+  opacity:0.8;
+  display:inline-block;
+}
+
+* {
+  /*outline: 1px dotted hsla(14, 100%, 50%, 0.5);*/
+}
+a {
+  text-decoration: none;
+  color:green;
+}
+a:hover {
+  transition: opacity 2s;
+  opacity:1;
+}
+
+main > a {
+  display:block;
+  margin:5vw 1vw;
+  color:red;
+  text-decoration: none;
+}
+
+figure {
+  display:block;
+  text-align: center;
+  padding:0;
+  margin:2vh 0;
+}
+
+figure > img {
+  max-width:100%;
+  text-align:center;
+  margin-bottom:1vh;
+}
+figcaption {
+  text-align:left;
+  margin:2vh 0;
+}
+html.work main > section h1 {
+  color:green
+}
+
+
+/* set font sizes */
+
+html {
+  font-size:3vw;
+}
+
+
+h1 {
+  font-size:11vw;
+}
+h2 {
+  font-size:6vw;
+}
+h3 {
+  font-size:5vw;
+}
+main > a {
+  font-size:5vw;
+}
+figcaption > p {
+  font-size:4vw;
+}
+
+a.selected {
+  font-size:8vw;
+}
+
+menu > a {
+  font-size: 7vw;
+}
+
+main > menu {
+  margin-top:4vw
+}
+
+main > menu > a {
+  font-size: 7vw;
+  margin-bottom: 7vw;
+  display: block;
+}
+
+
+@media (orientation: landscape) {
+
+  html {
+    font-size:3vh;
+  }
+
+  body > header,
+  body > main {
+    margin: 0 auto;
+    max-width: 100vh;
+  }
+
+  h1 {
+    font-size:11vh;
+  }
+  h2 {
+    font-size:6vh;
+  }
+  h3 {
+    font-size:5vh;
+  }
+
+  main > a {
+    font-size:5vh;
+  }
+  figcaption > p {
+    font-size:3vh;
+  }
+  menu > a {
+    font-size: 7vh;
+  }
+
+  main > menu > a {
+    font-size: 5vh;
+    margin-bottom: 4vh;
+  }
+
+  a.selected {
+    font-size:8vh;
+  }
+
+}
