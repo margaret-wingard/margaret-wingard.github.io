@@ -54,6 +54,7 @@ header > menu > a {
   margin:0 2vw 2vh 0;
 }
 
+header > menu > a[href=work.html] {}
 
 main > menu {
   margin-left:2vw;
@@ -70,7 +71,7 @@ main > menu > a {
 }
 a {
   text-decoration: none;
-  color:green;
+  color:#d1441a;
 }
 a:hover {
   transition: opacity 2s;
