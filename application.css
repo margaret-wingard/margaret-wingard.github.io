@@ -30,9 +30,6 @@ dl {
   display:none;
 }
 
-h1,h2,h3,p {
-  text-transform: capitalize;
-}
 h1, h2, h3 {
   vertical-align: middle;
   margin:0 0 2vw 0
