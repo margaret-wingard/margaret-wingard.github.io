@@ -5,7 +5,7 @@
 
 html {
   height:100%;
-  font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'; 
+  font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   opacity:1;
   padding:0;
   margin:0;
@@ -118,8 +118,6 @@ html.work main > section h1 {
 html {
   font-size:3vw;
 }
-
-
 h1 {
   font-size:11vw;
 }
@@ -135,19 +133,15 @@ main > a {
 figcaption > p {
   font-size:4vw;
 }
-
 a.selected {
   font-size:8vw;
 }
-
 menu > a {
   font-size: 7vw;
 }
-
 main > menu {
   margin-top:4vw
 }
-
 main > menu > a {
   font-size: 7vw;
   margin-bottom: 7vw;
@@ -164,7 +158,7 @@ main > menu > a {
   body > header,
   body > main {
     margin: 0 auto;
-    max-width: 100vh;
+    max-width: 800px;
   }
 
   h1 {
