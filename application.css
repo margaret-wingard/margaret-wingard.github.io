@@ -1,3 +1,6 @@
+/* * {
+  outline: 1px dotted hsla(14, 100%, 50%, 0.5);
+} */
 
 .selected {
   opacity:1
@@ -5,13 +8,13 @@
 
 html {
   height:100%;
-  font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   opacity:1;
   padding:0;
   margin:0;
 }
 body {
-  margin:2vh 2vw
+  margin:2vmax
 }
 menu {
   -webkit-padding-start:0;
@@ -67,9 +70,6 @@ img {
   max-width: 95vw;
 }
 
-* {
-  /*outline: 1px dotted hsla(14, 100%, 50%, 0.5);*/
-}
 a {
   text-decoration: none;
   color:#FF7F50;
@@ -94,60 +94,50 @@ figure {
 }
 
 figure > img {
-  max-width:100%;
+  width:100%;
   text-align:center;
   margin-bottom:1vh;
 }
 figcaption {
   text-align:left;
-  margin:2vh 0;
+  margin:2vh 0 0 0;
 }
-
-figcaption h3 {
-  font-size:4vw;
-}
-
 
 html.work main > section h1 {
   color:green
 }
 
-
 /* set font sizes */
 
 html {
-  font-size:3vw;
+  font-size:3.3vw;
 }
 h1 {
-  font-size:11vw;
+  font-size:6.6vw;
 }
 h2 {
-  font-size:6vw;
+  font-size:5vw;
 }
 h3 {
-  font-size:5vw;
+  font-size:4vw;
 }
 main > a {
-  font-size:5vw;
+  font-size:4vw;
 }
 figcaption > p {
   font-size:4vw;
 }
-a.selected {
-  font-size:8vw;
-}
 menu > a {
-  font-size: 7vw;
+  font-size: 6vw;
 }
 main > menu {
   margin-top:4vw
 }
 main > menu > a {
-  font-size: 7vw;
+  font-size: 5vw;
   margin-bottom: 7vw;
   display: block;
 }
-
 
 @media (orientation: landscape) {
 
@@ -162,23 +152,22 @@ main > menu > a {
   }
 
   h1 {
-    font-size:11vh;
-  }
-  h2 {
     font-size:6vh;
   }
-  h3 {
-    font-size:5vh;
+
+  h2 {
+    font-size:4vh;
   }
 
-  main > a {
-    font-size:5vh;
+  h3 {
+    font-size:3vh;
   }
+
   figcaption > p {
     font-size:3vh;
   }
   menu > a {
-    font-size: 7vh;
+    font-size: 5vh;
   }
 
   main > menu > a {
@@ -187,7 +176,6 @@ main > menu > a {
   }
 
   a.selected {
-    font-size:8vh;
+    font-size:5vh;
   }
-
 }
