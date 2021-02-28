@@ -134,13 +134,13 @@ h1 {
   font-size:11vw;
 }
 h2 {
-  font-size:6vw;
-}
-h3 {
   font-weight: 300;
-  font-size:5vw;
+  font-size:6vw;
   opacity:0.5;
   font-style: italic;
+}
+h3 {
+  font-size:5vw;
 }
 main > a {
   font-size:5vw;
