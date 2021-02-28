@@ -138,6 +138,8 @@ h2 {
 }
 h3 {
   font-size:5vw;
+  opacity:0.5;
+  font-style: italic;
 }
 main > a {
   font-size:5vw;
