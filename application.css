@@ -3,6 +3,11 @@
   opacity:1
 }
 
+.work-section {
+  width: 800px;
+  margin: 30px;
+}
+
 html {
   height:100%;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -12,9 +17,9 @@ html {
   margin:0;
   color: #4C4A4A;
 }
-body {
+/* body {
   margin:2vh 2vw
-}
+} */
 p {
   color:inherit;
 }
@@ -23,7 +28,7 @@ menu {
 }
 main > section {
   padding:2vh 0;
-  min-height:100vh
+  min-height:100vh;
 }
 
 main > article {
@@ -48,9 +53,9 @@ h1 > a {
   color: #4C4A4A;
 }
 
-menu {
+/* menu {
   margin:1vh 1vw 1vh 0
-}
+} */
 menu > a {
   margin-right:2vw;
   opacity:0.5;
@@ -63,10 +68,10 @@ header > menu > a {
 
 header > menu > a[href=work.html] {}
 
-main > menu {
+/* main > menu {
   margin-left:2vw;
   height:100vh;
-}
+} */
 main > menu > a {
   margin:1vh 2vw 1vh 0;
   opacity:0.8;
@@ -157,12 +162,16 @@ menu > a {
 }
 
 main > menu {
-  margin-top:4vw
+  /* margin-top:4vw; */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  display: block;
 }
 
 main > menu > a {
-  font-size: 7vw;
-  margin-bottom: 7vw;
+  /* font-size: 7vw;
+  margin-bottom: 7vw; */
   display: block;
 }
 
@@ -180,11 +189,11 @@ td {
     font-size:3vh;
   }
 
-  body > header,
+  /* body > header,
   body > main {
     margin: 0 auto;
     max-width: 800px;
-  }
+  } */
 
   h1 {
     font-size:5.5vh;
@@ -203,14 +212,14 @@ td {
     font-size:3vh;
   }
   menu > a {
-    font-size: 3.33vh;
+    font-size: 1rem;
     text-transform: uppercase;
   }
 
-  main > menu > a {
+  /* main > menu > a {
     font-size: 5vh;
     margin-bottom: 4vh;
-  }
+  } */
 
   a.selected {
     font-size:125%;
