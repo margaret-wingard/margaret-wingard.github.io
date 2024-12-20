@@ -1,76 +1,79 @@
-
 .selected {
-  opacity:1
+  opacity: 1;
 }
 
 html {
-  height:100%;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  opacity:1;
-  padding:0;
-  margin:0;
-  color: #4C4A4A;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+  color: #4c4a4a;
 }
 body {
-  margin:2vh 2vw
+  margin: 2vh 2vw;
 }
 p {
-  color:inherit;
+  color: inherit;
 }
 menu {
-  -webkit-padding-start:0;
+  -webkit-padding-start: 0;
 }
 main > section {
-  padding:2vh 0;
-  min-height:100vh
+  padding: 2vh 0;
+  min-height: 100vh;
 }
 
 main > article {
-  padding:0;
-  min-height:100vh;
+  padding: 0;
+  min-height: 100vh;
 }
 
 dl {
-  display:none;
+  display: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   vertical-align: middle;
-  margin:0 0 2vw 0
+  margin: 0 0 2vw 0;
 }
 
 h1 {
-  margin: 0
+  margin: 0;
 }
 
 h1 > a {
-  color: #4C4A4A;
+  color: #4c4a4a;
 }
 
 menu {
-  margin:1vh 1vw 1vh 0
+  margin: 1vh 1vw 1vh 0;
 }
 menu > a {
-  margin-right:2vw;
-  opacity:0.5;
+  margin-right: 2vw;
+  opacity: 0.5;
   font-style: italic;
 }
 
 header > menu > a {
-  margin:0 2vw 2vh 0;
+  margin: 0 2vw 2vh 0;
 }
 
-header > menu > a[href=work.html] {}
+header > menu > a[href="work.html"] {
+}
 
 main > menu {
-  margin-left:2vw;
-  height:100vh;
+  margin-left: 2vw;
+  height: 100vh;
 }
 main > menu > a {
-  margin:1vh 2vw 1vh 0;
-  opacity:0.8;
-  display:inline-block;
+  margin: 1vh 2vw 1vh 0;
+  opacity: 0.8;
+  display: inline-block;
 }
 
 img {
@@ -83,73 +86,75 @@ img {
 a {
   text-decoration: none;
 
-  color:inherit;
+  color: inherit;
 }
 a:hover {
   transition: opacity 2s;
-  opacity:1;
+  opacity: 1;
 }
 
 main > a {
   text-align: center;
-  display:block;
-  margin:2vw 0;
+  display: block;
+  margin: 2vw 0;
   text-decoration: none;
 }
 
 figure {
-  display:block;
+  display: block;
   text-align: center;
-  padding:0;
-  margin:2vh 0;
+  padding: 0;
+  margin: 2vh 0;
 }
 
 figure > img {
-  max-width:100%;
-  text-align:center;
-  margin-bottom:1vh;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 1vh;
 }
 figcaption {
-  text-align:left;
-  margin:2vh 0;
+  text-align: left;
+  margin: 2vh 0;
 }
 
 figcaption h3 {
-  font-size:4vw;
+  font-size: 1.5rem;
 }
 
 html.work main > section h1 {
-  color:green
+  color: green;
 }
-
 
 /* set font sizes */
 
 html {
-  font-size:3vw;
+  font-size: 3vw;
 }
 
 h1 {
   font-weight: 600;
-  font-size:11vw;
+  font-size: 11vw;
 }
 h2 {
   font-weight: 300;
-  font-size:6vw;
+  font-size: 6vw;
   font-style: italic;
 }
 h3 {
-  font-size:5vw;
+  font-size: 5vw;
 }
 main > a {
-  font-size:5vw;
+  font-size: 5vw;
 }
 figcaption > p {
-  font-size:4vw;
+  font-weight: 100;
+  margin: 5px 0px;
+  max-width: 50%;
+  font-size: 0.75rem;
 }
 
 a.selected {
-  font-size:8vw;
+  font-size: 8vw;
 }
 
 menu > a {
@@ -157,7 +162,7 @@ menu > a {
 }
 
 main > menu {
-  margin-top:4vw
+  margin-top: 4vw;
 }
 
 main > menu > a {
@@ -171,13 +176,31 @@ td:first-of-type {
 }
 
 td {
-  height:3rem
+  height: 3rem;
+}
+
+.details {
+  font-size: .5rem;
+}
+
+/* Phone Styles */
+@media screen and (max-width: 600px) {
+
+  figcaption > p {
+    font-weight: 100;
+    margin: 5px 0px;
+    max-width: 50%;
+    font-size: 1rem;
+  }
+
+  .details {
+    font-size: .8rem;
+  }
 }
 
 @media (orientation: landscape) {
-
   html {
-    font-size:3vh;
+    font-size: 3vh;
   }
 
   body > header,
@@ -187,20 +210,20 @@ td {
   }
 
   h1 {
-    font-size:5.5vh;
+    font-size: 5.5vh;
   }
   h2 {
-    font-size:5.5vh;
+    font-size: 5.5vh;
   }
   h3 {
-    font-size:4vh;
+    font-size: 4vh;
   }
 
   main > a {
-    font-size:3vh;
+    font-size: 3vh;
   }
   figcaption > p {
-    font-size:3vh;
+    font-size: 3vh;
   }
   menu > a {
     font-size: 3.33vh;
@@ -213,7 +236,6 @@ td {
   }
 
   a.selected {
-    font-size:125%;
+    font-size: 125%;
   }
-
 }
